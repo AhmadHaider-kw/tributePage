@@ -1,0 +1,73 @@
+body {
+	background-color: bisque;
+	text-align: center;
+	display: grid;
+}
+
+h3 {
+	font-size: 20px;
+}
+a:visited {
+	color: red;
+}
+
+.p {
+	font-weight: bold;
+}
+#img-caption {
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+}
+
+ul {
+	text-align: left;
+	line-height: 1.5;
+}
+#tribute-info {
+	margin: 10px;
+	background: lightcyan;
+}
+li {
+	margin: 10px;
+}
+
+#headline {
+	font-weight: bolder;
+	font-style: oblique;
+	border-style: 50px solid black;
+}
+
+footer {
+	display: grid;
+}
+
+.quote {
+	font-weight: bold;
+}
+
+@media (max-width: 460px) {
+	body {
+		background-color: firebrick;
+		color: yellow;
+	}
+
+	img {
+		display: block;
+
+		max-width: 100%;
+
+		margin-left: auto;
+
+		margin-right: auto;
+	}
+
+	.P {
+		padding: auto;
+		width: auto;
+	}
+	#tribute-info {
+		margin: 10px;
+		background: black;
+	}
+}
